@@ -1,7 +1,12 @@
  # Project Néréides: Telemetry with Raspberry Pi
 
+*Warning : the file names below may not be exactly their real file names. The name of the files in this README.md file are chosen for simplicity.*
+
 ## Description
 Project Néréides is an initiative by the student association from UTT, competing in the Monaco Energy Boat Challenge. This project involves creating a boat from scratch and competing on various criteria such as speed, endurance, and ecological impact. The telemetry system uses a Raspberry Pi to collect and transmit data to different databases.
+
+# Goal of this project
+Compare each database to see which one is the best depending on our use case
 
 ## How I structured the code
 The project is organized into different Python scripts, each handling telemetry data for a specific database:
@@ -27,7 +32,7 @@ Supabase:
   
 Each script will generate sample data, check the database connection, and send the data to the respective database.
 
-Technical Decisions
+# Technical Decisions
 The project uses Python for its simplicity and extensive library support. 
 Key technologies and decisions include:
 
