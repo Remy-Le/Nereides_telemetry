@@ -1,6 +1,6 @@
  # Project Néréides: Telemetry with Raspberry Pi
 
-*Warning : the file names below may not be exactly their real file names. The name of the files in this README.md file are chosen for simplicity.*
+*Warning : Because this was a private project, I'm unable to share the actual code. Instead, I'll walk you through the main steps I took, the technologies I used, and what I learned throughout the process.*
 
 ## Description
 Project Néréides is an initiative by the student association from UTT, competing in the Monaco Energy Boat Challenge. This project involves creating a boat from scratch and competing on various criteria such as speed, endurance, and ecological impact. The telemetry system uses a Raspberry Pi to collect and transmit data to different databases.
@@ -17,15 +17,14 @@ The project is organized into different Python scripts, each handling telemetry 
 Each script contains functions to generate data, get timestamps, check database connections, and send data to the respective database.
 
 ## Usage Examples
-To run the telemetry scripts, use the following commands:
+To run the telemetry scripts, you could used the following commands:
 
 - **Firebase**:
   ```sh
   python firebase_telemetry.py
-Supabase:
 - **Supabase**:
   ```sh
-  python supabase_telemtry.py
+  python supabase_telemetry.py
 - **MongoDB**:
   ```sh
   python mongodb_telemetry.py
